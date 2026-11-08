@@ -1,0 +1,6 @@
+# 真实配置与状态，永远不要提交
+config.json
+env
+*.log
+.local/state/
+.cache/

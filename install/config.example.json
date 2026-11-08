@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "muse",
+      "delivery": "pull",
+      "allow_wxids": [
+        "<你的微信号，运行时用 wx-bot status 查看>"
+      ]
+    }
+  ],
+  "local_api": {
+    "listen": "127.0.0.1:18790",
+    "token": "<随机生成，只存本机，不要提交>"
+  },
+  "media_dir": "<home>/.local/state/wx-bot/media",
+  "state_dir": "<home>/.local/state/wx-bot"
+}
